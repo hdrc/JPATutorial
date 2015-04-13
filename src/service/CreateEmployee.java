@@ -15,9 +15,9 @@ public class CreateEmployee {
 		em.getTransaction().begin();
 		
 		Employee employee=new Employee();
-		employee.setEname("Mao");
-		employee.setSalary(67000);
-		employee.setDeg("Profesora");
+		employee.setEname("Kelly");
+		employee.setSalary(40000);
+		employee.setDeg("Estudiante");
 		
 		em.persist(employee);
 		em.getTransaction().commit();
